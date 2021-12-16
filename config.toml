@@ -1,0 +1,30 @@
+baseURL = "https://mgramin.github.io"
+languageCode = "en-us"
+title = "Gramin's Blog"
+theme = "cactus"
+
+
+[params]
+  description = "My name is Maksim"
+
+  showProjectsList = true
+  projectsUrl = "https://github.com/mgramin"
+
+[params.comments]
+    enabled = true
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/mgramin"
+
+[[params.social]]
+  name = "email"
+  link = "mgramin@gmail.com" # no need for "mailto:" at the start
+
+[[params.social]]
+  name = "twitter"
+  link = "https://twitter.com/graminmaksim"
+
+[[params.social]]
+  name = "telegram"
+  link = "https://t.me/mgramin"
