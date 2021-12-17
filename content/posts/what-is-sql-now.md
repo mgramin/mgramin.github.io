@@ -2,6 +2,7 @@
 title: "What is SQL now?"
 date: 2021-12-16T12:56:38+03:00
 draft: false
+tags: ['SQL', 'database-as-code']
 ---
 
 SQL is Esperanto in the data world. But unlike "Lingwe Uniwersala" SQL became world-known and really common.
