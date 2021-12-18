@@ -5,7 +5,7 @@ theme = "cactus"
 
 
 [params]
-  description = "My name is Maksim Gramin. I'm a software developer."
+  description = "My name is Maksim Gramin. I'm a software developer.................."
   showProjectsList = true
   projectsUrl = "https://github.com/mgramin"
 
