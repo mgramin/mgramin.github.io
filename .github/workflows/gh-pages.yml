@@ -22,9 +22,10 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
-        run: touch CNAME
-        run: echo 'gramin.pro' > CNAME
+        run: |
+          hugo --minify
+          touch CNAME
+          echo 'gramin.pro' > CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
