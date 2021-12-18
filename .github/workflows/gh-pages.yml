@@ -24,8 +24,6 @@ jobs:
       - name: Build
         run: |
           hugo --minify
-          touch CNAME
-          echo 'gramin.pro' > CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
