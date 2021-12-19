@@ -1,4 +1,4 @@
-baseURL = "http://gramin.pro"
+baseURL = "https://gramin.pro"
 languageCode = "en-us"
 title = "ProGramin'g Blog"
 theme = "cactus"
