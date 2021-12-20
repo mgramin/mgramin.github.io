@@ -1,12 +1,11 @@
-baseURL = "https://mgramin.github.io"
+baseURL = "https://gramin.pro"
 languageCode = "en-us"
-title = "Gramin's Blog"
+title = "ProGramin'g Blog"
 theme = "cactus"
 
 
 [params]
-  description = "My name is Maksim"
-
+  description = "My name is Maksim Gramin. I'm a software developer."
   showProjectsList = true
   projectsUrl = "https://github.com/mgramin"
 
