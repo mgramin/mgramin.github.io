@@ -8,7 +8,7 @@ theme = "cactus"
   description = "My name is Maksim Gramin. I'm a software developer."
   showProjectsList = true
   projectsUrl = "https://github.com/mgramin"
-  disqusShortname: mgramin
+  disqusShortname = mgramin
 
 [params.comments]
     enabled = true
