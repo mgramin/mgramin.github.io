@@ -5,7 +5,7 @@ theme = "cactus"
 
 
 [params]
-  description = "My name is Maksim Gramin. I'm a software developer."
+  description = "My name is Maksim Gramin. I’m a software developer passionate about Databases and SQL."
   showProjectsList = true
   projectsUrl = "https://github.com/mgramin"
   disqusShortname = "mgramin"
