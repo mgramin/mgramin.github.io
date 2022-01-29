@@ -9,14 +9,14 @@ For many people, SQL is still a “low-level” computer language for data. It i
 
 But SQL first of all was invented [especially for humans](/posts/what-is-sql-now), not for machines. So let's treat SQL like a normal computer language (such as Java, C#, C++ etc) and try to follow some generally accepted principles:
 
-- SQL query is first class citizen in your system.
+- SQL query is *first class citizen* in your system.
 
-- Git (or any other VCS) is the single source of truth for your queries. E.g. one query - one file.
+- *Git* (or any other VCS) is the single source of truth for your queries. E.g. one query - one file.
 
-- Static analysis. Keep your queries in greate shape and prevent stupid bugs.
+- *Static analysis*. Keep your queries in greate shape and prevent stupid bugs.
 
-- Code review. Don't hesitate to show your queries to your colleague, DBA, analyst, or someone in the business. And your queries will become clearer, faster, safer, and more valuable.
+- *Code review*. Don't hesitate to show your queries to your colleague, DBA, analyst, or someone in the business. And your queries will become clearer, faster, safer, and more valuable.
 
-- Tests. Make sure your queries work with the right data.
+- *Tests*. Make sure your queries work with the right data.
 
-- Automate it all.
+- *Automate* it all.
