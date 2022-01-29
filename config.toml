@@ -11,7 +11,7 @@ theme = "cactus"
   disqusShortname = "mgramin"
 
 [params.comments]
-    enabled = true
+  enabled = true
 
 [[params.social]]
   name = "github"
