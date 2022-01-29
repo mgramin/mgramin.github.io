@@ -15,7 +15,7 @@ But SQL first of all was invented [especially for humans](/posts/what-is-sql-now
 
 - Static analysis. Keep your queries in greate shape and prevent stupid bugs.
 
-- Code review. Don't hesitate to show your queries to your colleague, DBA, analyst, or someone in the business. And your queries will became clearer, faster, safer, and more valuable.
+- Code review. Don't hesitate to show your queries to your colleague, DBA, analyst, or someone in the business. And your queries will become clearer, faster, safer, and more valuable.
 
 - Tests. Make sure your queries work with the right data.
 
