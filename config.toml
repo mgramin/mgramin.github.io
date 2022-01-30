@@ -21,13 +21,17 @@ theme = "cactus"
   link = "https://github.com/mgramin"
 
 [[params.social]]
-  name = "email"
-  link = "mgramin@gmail.com"
-
-[[params.social]]
   name = "twitter"
   link = "https://twitter.com/graminmaksim"
 
 [[params.social]]
+  name = "email"
+  link = "mgramin@gmail.com"
+
+[[params.social]]
   name = "telegram"
   link = "https://t.me/sundquist"
+
+[[params.social]]
+  name = "instagram"
+  link = "https://www.instagram.com/pro_gramin"
