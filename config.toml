@@ -29,6 +29,10 @@ theme = "cactus"
   link = "mgramin@gmail.com"
 
 [[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/maksim-gramin-a70ba05a"
+
+[[params.social]]
   name = "telegram"
   link = "https://t.me/sundquist"
 
