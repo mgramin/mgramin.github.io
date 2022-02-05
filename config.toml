@@ -2,6 +2,7 @@ baseURL = "https://gramin.pro"
 languageCode = "en-us"
 title = "ProGramin'g thoughts"
 theme = "cactus"
+disqusShortname = "mgramin"
 
 
 [params]
@@ -15,7 +16,6 @@ theme = "cactus"
 
 [params.comments]
   enabled = true
-  disqusShortname = "mgramin"
 
 [[params.social]]
   name = "github"
