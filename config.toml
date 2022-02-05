@@ -2,6 +2,7 @@ baseURL = "https://gramin.pro"
 languageCode = "en-us"
 title = "ProGramin'g thoughts"
 theme = "cactus"
+disqusShortname = "gramin-pro"
 
 
 [params]
@@ -11,7 +12,6 @@ theme = "cactus"
   If you find a spelling mistake, inaccuracy, or anything else, feel free to text me or [create a PR](https://github.com/mgramin/mgramin.github.io)."""
   showProjectsList = true
   projectsUrl = "https://github.com/mgramin"
-  disqusShortname = "mgramin"
 
 [params.comments]
   enabled = true
@@ -27,6 +27,10 @@ theme = "cactus"
 [[params.social]]
   name = "email"
   link = "mgramin@gmail.com"
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/maksim-gramin-a70ba05a"
 
 [[params.social]]
   name = "telegram"
