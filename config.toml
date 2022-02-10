@@ -13,6 +13,7 @@ googleAnalytics = "G-SZPJMEZSBE"
   If you find any mistake, inaccuracy, or anything else, feel free to text me or [create a PR](https://github.com/mgramin/mgramin.github.io)."""
   showProjectsList = true
   projectsUrl = "https://github.com/mgramin"
+  rss = true
 
 [params.comments]
   enabled = true
