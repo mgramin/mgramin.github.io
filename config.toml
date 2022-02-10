@@ -1,8 +1,9 @@
-baseURL = "https://gramin.pro"
+baseURL = "https://gramin.pro/"
 languageCode = "en-us"
 title = "ProGramin'g thoughts"
 theme = "cactus"
 disqusShortname = "gramin-pro"
+googleAnalytics = "G-SZPJMEZSBE"
 
 
 [params]
