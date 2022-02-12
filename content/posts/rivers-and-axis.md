@@ -28,7 +28,7 @@ where d.name = 'IT'
 ```
 -->
 
-But legendary Joe Celko in his book ["Joe Celko's SQL Programming Style"](https://www.amazon.com/Celkos-Programming-Kaufmann-Management-Systems/dp/0120887975) sad: let's turn our rivers into axes. Same query but with the axis instead the river:
+But legendary Joe Celko in his book ["Joe Celko's SQL Programming Style"](https://www.amazon.com/Celkos-Programming-Kaufmann-Management-Systems/dp/0120887975) sad: let's turn our rivers into axis. Same query but with the axis instead the river:
 
 ![Axis](/rivers-and-axis/axis-simple-marked-small.png)
 
@@ -73,6 +73,6 @@ select e.first_name
 ```
 -->
 
-We immediately visually detect three axes and three corresponding queries. This allows us to quickly and easily find out what this query does.
+We immediately visually detect three axis and three corresponding queries. This allows us to quickly and easily find out what this query does.
 
 In this post I use my way to build an axis (maybe not the best), surely you can find other methods for this.
