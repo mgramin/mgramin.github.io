@@ -44,6 +44,10 @@ copyright = "Maksim Gramin"
   name = "instagram"
   link = "https://www.instagram.com/pro_gramin"
 
+[[params.social]]
+  name = "reddit"
+  link = "https://www.reddit.com/user/mgramin"
+
 
 [[menu.main]]
   name = "Home"
