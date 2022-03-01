@@ -49,6 +49,11 @@ copyright = "Maksim Gramin"
   link = "https://www.reddit.com/user/mgramin"
 
 
+[[params.social]]
+  name = "rss"
+  link = "https://gramin.pro/index.xml"
+
+
 [[menu.main]]
   name = "Home"
   url = "/"
