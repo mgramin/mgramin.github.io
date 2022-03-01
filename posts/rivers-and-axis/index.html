@@ -8,8 +8,7 @@
 <link rel=stylesheet href=https://latest.cactus.chat/style.css type=text/css>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
-<title> Rivers and Axis | ProGramin'g thoughts</title>
-<link rel=canonical href=https://gramin.pro/posts/rivers-and-axis/>
+<title> Rivers and Axis | ProGramin'g thoughts</title><link rel=canonical href=https://gramin.pro/posts/rivers-and-axis/>
 <meta name=description content="  My name is Maksim Gramin. I’m a software developer passionate about Databases and SQL.
   
   If you find any mistake, inaccuracy, or anything else, feel free to text me or [create a PR](https://github.com/mgramin/mgramin.github.io).">
@@ -31,43 +30,33 @@ That was to be expected, because of the declarative nature of SQL. In imperative
 <script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]-->
 <link rel=icon type=image/png href=https://gramin.pro/images/favicon.ico>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZPJMEZSBE"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-SZPJMEZSBE',{anonymize_ip:!1})}</script>
-</head>
-<body class="max-width mx-auto px3 ltr">
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-SZPJMEZSBE",{anonymize_ip:!1})}</script>
+</head><body class="max-width mx-auto px3 ltr">
 <div class="content index py4">
 <div id=header-post>
 <a id=menu-icon href=#><i class="fas fa-bars fa-lg"></i></a>
 <a id=menu-icon-tablet href=#><i class="fas fa-bars fa-lg"></i></a>
-<a id=top-icon-tablet href=# onclick="$('html, body').animate({scrollTop:0},'fast')" style=display:none aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+<a id=top-icon-tablet href=# onclick='$("html, body").animate({scrollTop:0},"fast")' style=display:none aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
 <span id=menu>
 <span id=nav>
 <ul>
-<li><a href=/>Home</a></li>
-<li><a href=/posts>All posts</a></li>
-<li><a href=/tags>Tags</a></li>
-<li><a href=/about>About</a></li>
-</ul>
-</span>
+<li><a href=/>Home</a></li><li><a href=/posts>All posts</a></li><li><a href=/tags>Tags</a></li><li><a href=/about>About</a></li></ul></span>
 <br>
 <span id=actions>
 <ul>
 <li>
 <a class=icon href=https://gramin.pro/posts/sql-is-not-a-bytecode-for-data/ aria-label=Previous>
-<i class="fas fa-chevron-left" aria-hidden=true onmouseover="$('#i-prev').toggle()" onmouseout="$('#i-prev').toggle()"></i>
+<i class="fas fa-chevron-left" aria-hidden=true onmouseover='$("#i-prev").toggle()' onmouseout='$("#i-prev").toggle()'></i>
 </a>
-</li>
-<li>
-<a class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page">
-<i class="fas fa-chevron-up" aria-hidden=true onmouseover="$('#i-top').toggle()" onmouseout="$('#i-top').toggle()"></i>
+</li><li>
+<a class=icon href=# onclick='$("html, body").animate({scrollTop:0},"fast")' aria-label="Top of Page">
+<i class="fas fa-chevron-up" aria-hidden=true onmouseover='$("#i-top").toggle()' onmouseout='$("#i-top").toggle()'></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href=# aria-label=Share>
-<i class="fas fa-share-alt" aria-hidden=true onmouseover="$('#i-share').toggle()" onmouseout="$('#i-share').toggle()" onclick="return $('#share').toggle(),!1"></i>
+<i class="fas fa-share-alt" aria-hidden=true onmouseover='$("#i-share").toggle()' onmouseout='$("#i-share").toggle()' onclick='return $("#share").toggle(),!1'></i>
 </a>
-</li>
-</ul>
-<span id=i-prev class=info style=display:none>Previous post</span>
+</li></ul><span id=i-prev class=info style=display:none>Previous post</span>
 <span id=i-next class=info style=display:none>Next post</span>
 <span id=i-top class=info style=display:none>Back to top</span>
 <span id=i-share class=info style=display:none>Share post</span>
@@ -79,181 +68,114 @@ That was to be expected, because of the declarative nature of SQL. In imperative
 <a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f" aria-label=Facebook>
 <i class="fab fa-facebook" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://twitter.com/share?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&text=Rivers%20and%20Axis" aria-label=Twitter>
 <i class="fab fa-twitter" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&title=Rivers%20and%20Axis" aria-label=Linkedin>
 <i class="fab fa-linkedin" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&is_video=false&description=Rivers%20and%20Axis" aria-label=Pinterest>
 <i class="fab fa-pinterest" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="mailto:?subject=Rivers%20and%20Axis&body=Check out this article: https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f" aria-label=Email>
 <i class="fas fa-envelope" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&title=Rivers%20and%20Axis" aria-label=Pocket>
 <i class="fab fa-get-pocket" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&title=Rivers%20and%20Axis" aria-label=reddit>
 <i class="fab fa-reddit" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&name=Rivers%20and%20Axis&description=It%26rsquo%3bs%20hard%20to%20find%20at%20least%20two%20people%20who%20would%20format%20the%20same%20SQL%20query%20in%20the%20same%20way.%20Everyone%20has%20their%20own%20style%20and%20their%20own%20arguments.%20And%20everyone%20is%20absolutely%20sure%20that%20this%20is%20the%20only%20right%20way.%0aThat%20was%20to%20be%20expected%2c%20because%20of%20the%20declarative%20nature%20of%20SQL.%20In%20imperative%20program%20languages%2c%20we%20define%20and%20control%20the%20order%20of%20statements%20execution%2c%20and%20it%20affects%20how%20we%20format%20our%20code." aria-label=Tumblr>
 <i class="fab fa-tumblr" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&t=Rivers%20and%20Axis" aria-label="Hacker News">
 <i class="fab fa-hacker-news" aria-hidden=true></i>
 </a>
-</li>
-</ul>
-</div>
-<div id=toc>
-<nav id=TableOfContents></nav>
-</div>
-</span>
-</div>
-<article class=post itemscope itemtype=http://schema.org/BlogPosting>
+</li></ul></div><div id=toc>
+<nav id=TableOfContents></nav></div></span>
+</div><article class=post itemscope itemtype=http://schema.org/BlogPosting>
 <header>
 <h1 class=posttitle itemprop="name headline">
 Rivers and Axis
-</h1>
-<div class=meta>
+</h1><div class=meta>
 <div class=postdate>
 <time datetime="2022-01-31 22:56:38 +0300 +0300" itemprop=datePublished>2022-01-31</time>
-</div>
-<div class=article-tag>
+</div><div class=article-tag>
 <i class="fas fa-tag"></i>
 <a class=tag-link href=/tags/sql rel=tag>SQL</a>
-</div>
-</div>
-</header>
-<div class=content itemprop=articleBody>
-<p>It&rsquo;s hard to find at least two people who would format the same SQL query in the same way. Everyone has their own style and their own arguments. And everyone is absolutely sure that this is the only right way.</p>
-<p>That was to be expected, because of the declarative nature of SQL. In imperative program languages, we define and control the order of statements execution, and it affects how we format our code. But in SQL query we don&rsquo;t know at all the order of execution in advance and it deprives us of an important reference point. As a result, we have a lot of formatting options.</p>
-<p>But almost all of these options have one common unpleasant detail. In typography, it is called a <a href=https://en.wikipedia.org/wiki/River_(typography)>river</a> and it is considered to be bad typography. Let&rsquo;s look at a simple query. The river (marked red) tore our query into two jagged parts and makes the code more difficult to read.</p>
-<p><img src=/rivers-and-axis/river-simple-marked-small.png alt=Axis></p>
-<p>But legendary Joe Celko in his book <a href=https://www.amazon.com/Celkos-Programming-Kaufmann-Management-Systems/dp/0120887975>&ldquo;Joe Celko&rsquo;s SQL Programming Style&rdquo;</a> sad: let&rsquo;s turn our rivers into axis. Same query but with the axis instead the river:</p>
-<p><img src=/rivers-and-axis/axis-simple-marked-small.png alt=Axis></p>
-<p>Let&rsquo;s look at a more complicated query with subqueries:</p>
-<p><img src=/rivers-and-axis/axis-advance-marked.png alt=Axis></p>
-<p>We immediately visually detect three axis and three corresponding queries. This allows us to quickly and easily find out what this query does.</p>
-<p>In this post I use my way to build an axis (maybe not the best), surely you can find other methods for this.</p>
-</div>
-</article>
-<div class=blog-post-comments>
+</div></div></header><div class=content itemprop=articleBody>
+<p>It&rsquo;s hard to find at least two people who would format the same SQL query in the same way. Everyone has their own style and their own arguments. And everyone is absolutely sure that this is the only right way.</p><p>That was to be expected, because of the declarative nature of SQL. In imperative program languages, we define and control the order of statements execution, and it affects how we format our code. But in SQL query we don&rsquo;t know at all the order of execution in advance and it deprives us of an important reference point. As a result, we have a lot of formatting options.</p><p>But almost all of these options have one common unpleasant detail. In typography, it is called a <a href=https://en.wikipedia.org/wiki/River_(typography)>river</a> and it is considered to be bad typography. Let&rsquo;s look at a simple query. The river (marked red) tore our query into two jagged parts and makes the code more difficult to read.</p><p><img src=/rivers-and-axis/river-simple-marked-small.png alt=Axis></p><p>But legendary Joe Celko in his book <a href=https://www.amazon.com/Celkos-Programming-Kaufmann-Management-Systems/dp/0120887975>&ldquo;Joe Celko&rsquo;s SQL Programming Style&rdquo;</a> sad: let&rsquo;s turn our rivers into axis. Same query but with the axis instead the river:</p><p><img src=/rivers-and-axis/axis-simple-marked-small.png alt=Axis></p><p>Let&rsquo;s look at a more complicated query with subqueries:</p><p><img src=/rivers-and-axis/axis-advance-marked.png alt=Axis></p><p>We immediately visually detect three axis and three corresponding queries. This allows us to quickly and easily find out what this query does.</p><p>In this post I use my way to build an axis (maybe not the best), surely you can find other methods for this.</p></div></article><div class=blog-post-comments>
 <div id=disqus_thread>
-<script type=text/javascript>(function(){var a=document.createElement('script'),b;a.type='text/javascript',a.async=!0,b='gramin-pro',a.src='//'+b+'.disqus.com/embed.js',(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</div>
-</div>
-<div id=footer-post-container>
+<script type=text/javascript>(function(){var e=document.createElement("script"),t;e.type="text/javascript",e.async=!0,t="gramin-pro",e.src="//"+t+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div></div><div id=footer-post-container>
 <div id=footer-post>
 <div id=nav-footer style=display:none>
 <ul>
-<li><a href=/>Home</a></li>
-<li><a href=/posts>All posts</a></li>
-<li><a href=/tags>Tags</a></li>
-<li><a href=/about>About</a></li>
-</ul>
-</div>
-<div id=toc-footer style=display:none>
-<nav id=TableOfContents></nav>
-</div>
-<div id=share-footer style=display:none>
+<li><a href=/>Home</a></li><li><a href=/posts>All posts</a></li><li><a href=/tags>Tags</a></li><li><a href=/about>About</a></li></ul></div><div id=toc-footer style=display:none>
+<nav id=TableOfContents></nav></div><div id=share-footer style=display:none>
 <ul>
 <li>
 <a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f" aria-label=Facebook>
 <i class="fab fa-facebook fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://twitter.com/share?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&text=Rivers%20and%20Axis" aria-label=Twitter>
 <i class="fab fa-twitter fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&title=Rivers%20and%20Axis" aria-label=Linkedin>
 <i class="fab fa-linkedin fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&is_video=false&description=Rivers%20and%20Axis" aria-label=Pinterest>
 <i class="fab fa-pinterest fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="mailto:?subject=Rivers%20and%20Axis&body=Check out this article: https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f" aria-label=Email>
 <i class="fas fa-envelope fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&title=Rivers%20and%20Axis" aria-label=Pocket>
 <i class="fab fa-get-pocket fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&title=Rivers%20and%20Axis" aria-label=reddit>
 <i class="fab fa-reddit fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&name=Rivers%20and%20Axis&description=It%26rsquo%3bs%20hard%20to%20find%20at%20least%20two%20people%20who%20would%20format%20the%20same%20SQL%20query%20in%20the%20same%20way.%20Everyone%20has%20their%20own%20style%20and%20their%20own%20arguments.%20And%20everyone%20is%20absolutely%20sure%20that%20this%20is%20the%20only%20right%20way.%0aThat%20was%20to%20be%20expected%2c%20because%20of%20the%20declarative%20nature%20of%20SQL.%20In%20imperative%20program%20languages%2c%20we%20define%20and%20control%20the%20order%20of%20statements%20execution%2c%20and%20it%20affects%20how%20we%20format%20our%20code." aria-label=Tumblr>
 <i class="fab fa-tumblr fa-lg" aria-hidden=true></i>
 </a>
-</li>
-<li>
+</li><li>
 <a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fgramin.pro%2fposts%2frivers-and-axis%2f&t=Rivers%20and%20Axis" aria-label="Hacker News">
 <i class="fab fa-hacker-news fa-lg" aria-hidden=true></i>
 </a>
-</li>
-</ul>
-</div>
-<div id=actions-footer>
-<a id=menu-toggle class=icon href=# onclick="return $('#nav-footer').toggle(),!1" aria-label=Menu>
+</li></ul></div><div id=actions-footer>
+<a id=menu-toggle class=icon href=# onclick='return $("#nav-footer").toggle(),!1' aria-label=Menu>
 <i class="fas fa-bars fa-lg" aria-hidden=true></i> Menu</a>
-<a id=toc-toggle class=icon href=# onclick="return $('#toc-footer').toggle(),!1" aria-label=TOC>
+<a id=toc-toggle class=icon href=# onclick='return $("#toc-footer").toggle(),!1' aria-label=TOC>
 <i class="fas fa-list fa-lg" aria-hidden=true></i> TOC</a>
-<a id=share-toggle class=icon href=# onclick="return $('#share-footer').toggle(),!1" aria-label=Share>
+<a id=share-toggle class=icon href=# onclick='return $("#share-footer").toggle(),!1' aria-label=Share>
 <i class="fas fa-share-alt fa-lg" aria-hidden=true></i> share</a>
-<a id=top style=display:none class=icon href=# onclick="$('html, body').animate({scrollTop:0},'fast')" aria-label="Top of Page">
+<a id=top style=display:none class=icon href=# onclick='$("html, body").animate({scrollTop:0},"fast")' aria-label="Top of Page">
 <i class="fas fa-chevron-up fa-lg" aria-hidden=true></i> Top</a>
-</div>
-</div>
-</div>
-<footer id=footer>
+</div></div></div><footer id=footer>
 <div class=footer-left>
 Copyright &copy; 2022 Maksim Gramin
-</div>
-<div class=footer-right>
+</div><div class=footer-right>
 <nav>
 <ul>
-<li><a href=/>Home</a></li>
-<li><a href=/posts>All posts</a></li>
-<li><a href=/tags>Tags</a></li>
-<li><a href=/about>About</a></li>
-</ul>
-</nav>
-</div>
-</footer>
-</div>
-</body>
-<link rel=stylesheet href=/lib/font-awesome/css/all.min.css>
+<li><a href=/>Home</a></li><li><a href=/posts>All posts</a></li><li><a href=/tags>Tags</a></li><li><a href=/about>About</a></li></ul></nav></div></footer></div></body><link rel=stylesheet href=/lib/font-awesome/css/all.min.css>
 <script src=/lib/jquery/jquery.min.js></script>
 <script src=/js/main.js></script>
 <script src=/js/code-copy.js></script>
