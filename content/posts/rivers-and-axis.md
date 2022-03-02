@@ -76,3 +76,5 @@ select e.first_name
 We immediately visually detect three axis and three corresponding queries. This allows us to quickly and easily find out what this query does.
 
 In this post I use my way to build an axis (maybe not the best), surely you can find other methods for this.
+
+UPD. [Hot Reddit discussion](https://www.reddit.com/r/SQL/comments/sp2jav/how_do_you_format_your_sql_queries)
