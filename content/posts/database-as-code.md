@@ -1,11 +1,11 @@
 ---
-title: "Database as Code"
+title: "Database as Code. Not only migrations"
 date: 2022-02-27T14:40:01+03:00
 draft: false
 tags: ['SQL', 'database-as-code']
 ---
 
-I have spent a lot of time working with various database systems. I was a SQL and PL/SQL developer on big distributed teams, writing tons of nontrivial SQL queries and implementing tons of complex and tricky business logic on the database side. Then I worked as a classical Java developer where we interacted with any databases through ORM, operating only JPA annotation and framework properties (hoping to find and turn on a "magic" parameter `fast=true`).
+I have spent a lot of time working with various database systems. I was a SQL and PL/SQL developer on big distributed teams, writing tons of nontrivial SQL queries and implementing tons of complex and tricky business logic on the database side. And I worked as a "classical" Java developer where we interacted with any databases through ORM, operating mostly JPA annotation and framework properties (hoping to find and turn on a "magic" parameter `fast=true`).
 
 And all this time, I have had this feeling that database technologies (especially the part that is related to the comfort and speed of development) are far behind other IT areas (e.g. WEB, infrastructure, integrations, etc.). Working with databases remained slow, laborious, and very risky. 
 
@@ -42,7 +42,7 @@ But how about "Database as Code"? It was still a very exotic combination of word
 
 It's been six years, and nowadays, it's hard to find a project that doesn't follow these rules (at least the first three). There are a lot of [database migration tools](https://github.com/mgramin/awesome-db-tools#migration-tools) and ways to integrate it with your VCS and your CI/CD pipeline. And it's really great.
 
-However, I've always been interested in a few things:
+However, I've always been excited about a few things:
 
 - Database code is not only "scripts with changes". It's also DML and all kinds of SQL scripts
 - In addition to DBA's, there are many kinds of data people who intensively work with databases and use SQL
