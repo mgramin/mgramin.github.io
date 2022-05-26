@@ -2,7 +2,7 @@
     "list": [
        {
           "name":"awesome-db-tools",
-          "url":"https://github.com/mgramin/awesome-db-tools/",
+          "url":"https://github.com/mgramin/awesome-db-tools",
           "desc":"Everything that makes working with databases easier"
        },
        {
@@ -11,7 +11,7 @@
           "desc":"Database as Code manifesto"
        },
        {
-          "name":"Malewicz",
+          "name":"malewicz",
           "url":"https://github.com/mgramin/malewicz",
           "desc":"Suprematistic hackable GUI SQL-manager written in SQL itself"
        }       
