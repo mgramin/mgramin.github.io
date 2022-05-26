@@ -9,6 +9,11 @@
           "name":"database-as-code",
           "url":"https://github.com/mgramin/database-as-code",
           "desc":"Database as Code manifesto"
-       }
+       },
+       {
+          "name":"Malewicz",
+          "url":"https://github.com/mgramin/malewicz",
+          "desc":"Suprematistic hackable GUI SQL-manager written in SQL itself"
+       }       
     ]
  }
