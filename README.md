@@ -7,5 +7,5 @@ Run locally:
 ```
 git clone https://github.com/mgramin/mgramin.github.io.git
 cd mgramin.github.io.git
-hugo server
+hugo server -D
 ```
