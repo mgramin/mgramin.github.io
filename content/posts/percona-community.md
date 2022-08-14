@@ -1,6 +1,6 @@
 ---
 title: "My thoughts on Percona Community"
-date: 2022-08-14T22:45:11+03:00
+date: 2022-08-13T22:45:11+03:00
 draft: true
 ---
 
