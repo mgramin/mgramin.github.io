@@ -1,6 +1,6 @@
 baseURL = "https://gramin.pro/"
 languageCode = "en-us"
-title = "ProGramin'g thoughts"
+title = "proGRAMINg thoughts"
 theme = "cactus"
 disqusShortname = "gramin-pro"
 googleAnalytics = "G-SZPJMEZSBE"
