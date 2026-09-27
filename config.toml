@@ -1,77 +1,95 @@
 baseURL = "https://gramin.pro/"
 languageCode = "en-us"
 title = "proGRAMINg thoughts"
-theme = "cactus"
-disqusShortname = "gramin-pro"
-googleAnalytics = "G-SZPJMEZSBE"
+theme = "PaperMod"
 copyright = "Maksim Gramin"
 
+enableRobotsTXT = true
+enableEmoji = true
+enableInlineShortcodes = true
+
+[pagination]
+  pagerSize = 10
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-SZPJMEZSBE"
+  [services.disqus]
+    shortname = "gramin-pro"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
-  description = """
-  My name is Maksim Gramin. I’m a software developer passionate about Databases and SQL.
-  
-  If you find any mistake, inaccuracy, or anything else, feel free to text me or [create a PR](https://github.com/mgramin/mgramin.github.io)."""
-  showProjectsList = true
-  showAllPostsOnHomePage = true
-  # postsOnHomePage = 5
-  projectsUrl = "https://github.com/mgramin"
-  rss = true
-  mainSection = "posts"
+  description = "My name is Maksim Gramin. I'm a software developer passionate about Databases and SQL."
+  author = "Maksim Gramin"
+  defaultTheme = "light"
+  DateFormat = "January 2, 2006"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  comments = true
+  mainSections = ["posts"]
 
-[params.comments]
-  enabled = true
+  [params.homeInfoParams]
+    Title = "proGRAMINg thoughts \U0001F44B"
+    Content = """
+My name is Maksim Gramin. I'm a software developer passionate about Databases and SQL.
 
-[[params.social]]
-  name = "github"
-  link = "https://github.com/mgramin"
+"""
 
-[[params.social]]
-  name = "twitter"
-  link = "https://twitter.com/graminmaksim"
-
-[[params.social]]
-  name = "email"
-  link = "mgramin@gmail.com"
-
-[[params.social]]
-  name = "linkedin"
-  link = "https://www.linkedin.com/in/maksim-gramin-a70ba05a"
-
-[[params.social]]
-  name = "telegram"
-  link = "https://t.me/sundqvist"
-
-[[params.social]]
-  name = "instagram"
-  link = "https://www.instagram.com/pro_gramin"
-
-[[params.social]]
-  name = "reddit"
-  link = "https://www.reddit.com/user/mgramin"
-
-
-[[params.social]]
-  name = "rss"
-  link = "https://gramin.pro/index.xml"
-
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/mgramin"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/graminmaksim"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/maksim-gramin-a70ba05a"
+  [[params.socialIcons]]
+    name = "telegram"
+    url = "https://t.me/sundqvist"
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/pro_gramin"
+  [[params.socialIcons]]
+    name = "reddit"
+    url = "https://www.reddit.com/user/mgramin"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:mgramin@gmail.com"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
+  name = "Posts"
+  url = "/posts/"
   weight = 1
-
-[[menu.main]]
-  name = "All posts"
-  url = "/posts"
-  weight = 2
-
 [[menu.main]]
   name = "Tags"
-  url = "/tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
   weight = 3
-
 [[menu.main]]
   name = "About"
-  url = "/about"
+  url = "/about/"
   weight = 4
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 5
+
+[markup.highlight]
+  noClasses = false
+  codeFences = true
+  guessSyntax = true
+  lineNos = false
