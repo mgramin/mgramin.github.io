@@ -46,17 +46,14 @@ My name is Maksim Gramin. I'm a software developer passionate about Databases an
     name = "github"
     url = "https://github.com/mgramin"
   [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/graminmaksim"
+    name = "x"
+    url = "https://x.com/graminmaksim"
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/maksim-gramin-a70ba05a"
   [[params.socialIcons]]
     name = "telegram"
     url = "https://t.me/sundqvist"
-  [[params.socialIcons]]
-    name = "instagram"
-    url = "https://www.instagram.com/pro_gramin"
   [[params.socialIcons]]
     name = "reddit"
     url = "https://www.reddit.com/user/mgramin"
